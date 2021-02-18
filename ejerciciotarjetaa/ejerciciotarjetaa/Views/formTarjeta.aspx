@@ -1,6 +1,6 @@
 ﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="formTarjeta.aspx.cs" Inherits="ejerciciotarjetaa.formTarjeta" %>
 
-<%@ Register src="controlTarjeta.ascx" tagname="controlTarjeta" tagprefix="uc1" %>
+<%@ Register src="../UserControl/controlTarjeta.ascx" tagname="controlTarjeta" tagprefix="uc1" %>
 
 <!DOCTYPE html>
 
