@@ -67,24 +67,24 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="controlTarjeta.ascx" />
-    <Content Include="formTarjeta.aspx" />
+    <Content Include="UserControl\controlTarjeta.ascx" />
+    <Content Include="Views\formTarjeta.aspx" />
     <Content Include="Global.asax" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="controlTarjeta.ascx.cs">
+    <Compile Include="UserControl\controlTarjeta.ascx.cs">
       <DependentUpon>controlTarjeta.ascx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="controlTarjeta.ascx.designer.cs">
+    <Compile Include="UserControl\controlTarjeta.ascx.designer.cs">
       <DependentUpon>controlTarjeta.ascx</DependentUpon>
     </Compile>
-    <Compile Include="formTarjeta.aspx.cs">
+    <Compile Include="Views\formTarjeta.aspx.cs">
       <DependentUpon>formTarjeta.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="formTarjeta.aspx.designer.cs">
+    <Compile Include="Views\formTarjeta.aspx.designer.cs">
       <DependentUpon>formTarjeta.aspx</DependentUpon>
     </Compile>
     <Compile Include="Global.asax.cs">

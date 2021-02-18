@@ -34,23 +34,19 @@
 <br />
 <br />
 <div class="contenedor">
-    
+
     <br />
-
-    
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-    
     <asp:Label ID="Label1" CssClass="textos" runat="server" Text="NÚMERO DE TARJETA"></asp:Label>
-
-
-&nbsp;<br />
+    &nbsp;
+    <br />
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
     <asp:TextBox ID="txtNumTar"  CssClass="box" runat="server" Width="230px" Height="25px"></asp:TextBox>
     <br />
     <br />
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
     <asp:Label ID="Label2"  CssClass="textos" runat="server" Text="CADUCIDAD"></asp:Label>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
     <asp:Label ID="Label3" CssClass="textos" runat="server" Text="CVC"></asp:Label>
     <br />
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
@@ -61,8 +57,6 @@
     <br />
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
     <asp:Button ID="Button1" CssClass="boton" runat="server" Height="35px" Text="VERIFICAR" Width="230px" OnClick="Button1_Click" />
-
-
 </div>
 
 <div style="width: 390px; margin: 0 auto;">
@@ -73,9 +67,10 @@
     &nbsp;
     <asp:Label ID="lblValido"  runat="server"></asp:Label>
     </p>
-&nbsp;
+    &nbsp;
     <asp:Label ID="lblMarca" runat="server"></asp:Label>
     <br />
     <br />
-&nbsp;<asp:Label ID="lblVencida" runat="server"></asp:Label>
+    &nbsp;
+    <asp:Label ID="lblVencida" runat="server"></asp:Label>
 </div>
