@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30907.101
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ejerciciotarjetaa", "ejerciciotarjetaa\ejerciciotarjetaa.csproj", "{D8B575C7-A414-4AF9-9CA2-5FE89F0C71BC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D8B575C7-A414-4AF9-9CA2-5FE89F0C71BC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D8B575C7-A414-4AF9-9CA2-5FE89F0C71BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D8B575C7-A414-4AF9-9CA2-5FE89F0C71BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D8B575C7-A414-4AF9-9CA2-5FE89F0C71BC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {38E5F2DE-E238-44BE-BABA-24CE9583F0A5}
+	EndGlobalSection
+EndGlobal
